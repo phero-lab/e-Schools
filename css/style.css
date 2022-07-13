@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+
+body {
+    font-family: poppins, sans-serif;
+
+}
+
+.logo {
+    width: 150px;
+}
+
+.btn-green {
+    padding: 10px 30px;
+    border-radius: 33px;
+    background-color: #21B573;
+    color: white;
+    border: none;
+    text-transform: capitalize;
+}
+
+.btn-green:hover {
+    transition: 0.5s ease-in-out;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+
+}
+
+.banner-heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.banner-heading span {
+    color: #21B573;
+}
+
+.banner-parra {
+    color: #6C6B6B;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.header {
+    background-color: #F0FFF0;
+}
+
+.stats .card {
+    background-color: #F8FFFB;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.stats .card p {
+    font-size: 10px;
+}
+
+.active {
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.courses .card a {
+    text-decoration: none;
+}
+
+.courses .card a:hover {
+    color: white;
+}
+
+.icon-width {
+    width: 15px;
+}
+
+.date,.seat{
+    padding: 5px 10px;
+    color: #585859;
+}
+
+.date ,.seat p{
+    font-size: 14px;
+}
+
+.courses .card-footer {
+    padding:15px 10;
+    border: none;
+    background-color: #fff;
+
+}
+.courses .card{
+    border: none;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 8%;
+    margin-bottom: 5%;
+}
